@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+    <style>
+        body{
+            background-color: rgb(158, 158, 158);
+            text-align: center;
+            margin-bottom: 10px;
+            
+        }
+        div{
+            width: 600px;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-bottom: 5px;
+            padding-top: 10px;
+            padding-left: 10px;
+            margin-top: 20px;
+            padding-right: 0;
+            border: 1px solid black;
+            text-align: center;
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+        }
+        input{
+            width: 100px;
+            border-radius: 10px;
+            font-size:16;
+            padding-left: 20px;
+        }
+        input#bt{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 5px;
+            color: green;
+
+        }
+        
+    </style>
+</head>
+<body>
+   
+
+
+
+    <h1>Medidor de Colesterol</h1>
+     Nível de Colesterol : <input type="number" name="txtvel" id="vel">
+     <input type="button" value="verificar" onclick="calcular()" id="bt">
+
+     <div id="res"> 
+        Resultado
+    </div>
+
+     <script>
+         var txtv= window.document.getElementById('txtv')
+         function calcular(){
+             var txtv = window.document.getElementById('vel')
+             var res = window.document.getElementById('res')
+             var vel =Number(txtv.value)
+             res.innerHTML= `<p>seu colesterol é de <strong> ${vel}</strong></p>`
+                    
+             if(vel<=50){
+                res.innerHTML += `<p>Você etá perfeitamente saudável</p> `
+                res.style.background='green'
+             }else if(vel>=100 && vel<=150){
+                res.innerHTML += `<p>um pouco elevado, cuide de sua alimentação</p> `
+                res.style.background='yellow'
+
+             }else{
+                res.innerHTML += `<p>parece uma ferrari irmão, se cuida melhor</p> `
+                res.style.background='red'
+             }
+
+
+         }
+     </script>
+    
+</body>
+</html>
