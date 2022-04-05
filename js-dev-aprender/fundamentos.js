@@ -220,11 +220,16 @@
 //     console.log(pessoa)
 // }
 
-// const cores = ['vermelho', 'azul','verde']
+//const cores = ['vermelho', 'azul','verde']
 // for(let indice in cores){
 //     console.log(cores[indice])
 // }
 
+//---LAÇO FOR OF
+
+// for(let cor of cores){
+//     console.log(cor)
+// }
   
 
 
