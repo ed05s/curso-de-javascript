@@ -211,6 +211,20 @@
 //      i++
 //  }while(i<=10)
 
+//---FOR IN ---LOPING MELHOR PARA OBJETOS
+// let pessoa={
+//     nome:'ed',
+//     idade:23
+// }
+// for(let chave in pessoa){
+//     console.log(pessoa)
+// }
+
+// const cores = ['vermelho', 'azul','verde']
+// for(let indice in cores){
+//     console.log(cores[indice])
+// }
+
   
 
 
