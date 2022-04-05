@@ -113,7 +113,7 @@
 //---------------------------------------------------------
 
 
-//(----O P E R A D O R E S   NÃO  B O O L E A NOS----)
+//(----O P E R A D O R E S   NÃO  B O O L E A N O S----)
 
 // FALSY 
  // undefined
@@ -154,6 +154,27 @@
 //      console.log('boa noite')
 //  }
 
+//SWITCH
+
+let permissao = 'comum'//comum , gerente , diretor
+
+// switch (permissao) {
+//     case 'comum':
+//         console.log('usuário comum')
+//     break;
+
+//     case 'gerente':
+//             console.log(' usuário gerente')
+//     break;
+
+//     case 'diretor':
+//         console.log('usuário diretor')
+//     break;
+
+//     default: 
+//        console.log('não reoconhecido')
+//         break;
+// }
   
 
 
