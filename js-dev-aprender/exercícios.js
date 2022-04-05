@@ -1,5 +1,5 @@
 
-//----FUNCTION
+//FUNCTION
 let sapato= "festa"
 
 function mudarSapato(tipo,cor){
@@ -9,7 +9,7 @@ function mudarSapato(tipo,cor){
 mudarSapato("esporte ","laranja")
 console.log(sapato)
 
-//---FUNCTION SEM RETORNO
+//FUNCTION SEM RETO
 
 
 
