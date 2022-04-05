@@ -156,7 +156,7 @@
 
 //SWITCH
 
-let permissao = 'comum'//comum , gerente , diretor
+//let permissao = 'comum'//comum , gerente , diretor
 
 // switch (permissao) {
 //     case 'comum':
@@ -175,6 +175,42 @@ let permissao = 'comum'//comum , gerente , diretor
 //        console.log('não reoconhecido')
 //         break;
 // }
+
+
+//{E S T R U T U R A S   DE  R E P E T I Ç Ã O}
+// LAÇO FOR 
+// WHILE
+// DO WHILE
+// FOR IN
+// FOR OF 
+
+//---LAÇO FOR
+//  for(let i=0;i<5;i++){
+//      if(i%2!==0){
+//          console.log(i)
+
+//      }
+//  }
+
+//---LAÇO WHILE
+
+//let i = 5
+
+// while(i>=1){
+//     if(i%2!==0){
+//         console.log(i)
+       
+//     }
+//     i--
+// }
+
+//---LAÇO DO WHILE -- COMANDO EXECUTA ANTES DA AVALIAÇÃO
+//  let i =0
+//  do{
+//      console.log(i)
+//      i++
+//  }while(i<=10)
+
   
 
 
