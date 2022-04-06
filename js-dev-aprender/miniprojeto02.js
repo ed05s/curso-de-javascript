@@ -8,4 +8,4 @@ function maior(n1,n2){
     }
     
 }
-console.log(maior(5,1))
+console.log(maior(11,5))
