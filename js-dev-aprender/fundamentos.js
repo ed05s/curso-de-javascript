@@ -230,6 +230,8 @@
 // for(let cor of cores){
 //     console.log(cor)
 // }
+
+
   
 
 
