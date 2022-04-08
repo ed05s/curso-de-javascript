@@ -231,8 +231,46 @@
 //     console.log(cor)
 // }
 
+//{----N A T U R E Z A  D I Â M I C A  DE OBJETOS-----}
 
-  
+// const mouse ={
+//   cor : 'red',
+//   marca : 'razer',
+// }
+//  mouse.velocidade=5000 // adicionando mais uma propriedade
+
+//  mouse.trocarDpi = function(){ //adicionando uma função ao objeto
+//    console.log('mudando dpi')
+//  }
+//  delete mouse.velocidade //deletando uma propriedade do objeto
+
+
+//   console.log(mouse)
+
+  //--------------------------------------------------------------
+
+  //{----C L O N A N D O   O B J E T O S----}
+
+  // const celular = {
+  //   marcaCelular:'asus',
+  //    tamanhoTela:{
+  //        vertical:155,
+  //        horizontal:75
+  //    },
+  //  capacidadedeBateria:5000,
+  //  ligar : function(){
+  //       console.log('fazendo Ligação')
+  //  }
 
 
 
+  // }
+  // const novoObjeto = Object.assign({
+  //   bateria:5000 //possível adicionar mais propriedades no objeto
+  // },celular)
+  // console.log(novoObjeto)
+
+
+  // //spread
+  // const objeto2={...celular} 
+  // console.log(objeto2)
