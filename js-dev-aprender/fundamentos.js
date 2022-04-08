@@ -311,4 +311,31 @@
 
 //   console.log(outramensagem[2])//--retorna o index da string
 
+
+
+//{---- T E M P L A T E   L I T E R A L----}
+
+//const mensagem=" oi isso é minha\nprimeira mensagem "
+
+
+// object
+// boolean
+// string
+// template literal
+
+// let nome = 'ed'
+// const outra =`oi isto é a minha primeira mensagem`
+// let mensagem = `${outra} me chamo ${nome}`
+// console.log(mensagem)
   
+
+//{----  D A T E ----}
+
+// const dataa = new Date()
+
+// const data1 = new Date('march 06 2022 09:02')
+
+// const data2 = new Date(2022,03,08,10,09)//ano mes dia hora minuto
+// console.log(data2)
+
+// console.log(data2.toDateString()) //data para string
