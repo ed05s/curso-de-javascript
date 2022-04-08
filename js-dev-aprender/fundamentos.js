@@ -274,3 +274,41 @@
   // //spread
   // const objeto2={...celular} 
   // console.log(objeto2)
+
+  
+
+  //{----F U N Ç Ã O   M A T H----}
+
+  // Math.random() // um número aleatório de 0 a 1
+  
+  // Math.max(3,9,15) // retorna o maior
+
+  // Math.min() // retorna o menor 
+
+
+
+  //{---- M É T O D O S  DE S T R I N G}
+
+  //tipo primitivo 
+//   const mensagem = 'minha string'
+
+//  console.log(mensagem.includes('minha')) //--verifica se existe a string passada no parametro
+//  //
+//  console.log(mensagem.startsWith('minha'))//--verifica se a string começa com a palavra passada no parametro
+// //
+//  console.log(mensagem.endsWith('string'))//--verifica se a string termina com a palavra passada no parametro
+// //
+//  console.log(mensagem.indexOf('minha')) //--retorna o index da string passada no parametro
+//  //
+//  console.log(mensagem.replace('minha','sua'))//--troca a primeira strinf do parametro pela segunda
+//  //
+//  console.log(mensagem.trim()) //--retira os espacos do final e da frente
+//  //
+//  console.log(mensagem.split(' ')) //--separa as palavras com um espaço
+
+//   //tipo objeto
+//   const outramensagem= new String('bom dia')
+
+//   console.log(outramensagem[2])//--retorna o index da string
+
+  
